@@ -1,0 +1,46 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.welcome {
+    background-color: azure;
+    min-height: 550px;
+    text-align: left;
+    padding: 30px;
+    color: black;
+}
+
+.welcome button {
+    padding: 10px;
+    cursor: pointer;
+    width: 130px;
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+}
+
+.welcome input {
+    padding: 6px;
+    width: 250px;
+}
+
+.welcome button:hover {
+    color: red;
+    background-color: white;
+}
+
+.welcome p {
+    font-size: 1.5rem;
+    color: red;
+    padding: 5px;
+}
+
+.welcome span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.welcome small {
+    background: rgb(101, 207, 101);
+}

@@ -1,0 +1,103 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper {
+    margin-top: 6px!important;
+    width: 99%;
+    margin: auto;
+    background-color: #F0EEED;
+    font-size: .8rem;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: #C92C6D;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 25px;
+    color: white;
+    font-family: verdana;
+    font-size: .9rem;
+}
+
+nav ul li a:hover {
+    background-color: #332C39;
+    color: white;
+    box-shadow: 0px 0px 1px pink;
+}
+
+.slidder {
+    margin: auto;
+}
+
+.slidder-image img {
+    width: 100%;
+    max-height: 500px;
+}
+
+.slidder-image {
+    position: relative;
+}
+
+.caption {
+    color: white;
+    background-color: rgb(0, 0, 0, .4);
+    padding: 3rem;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    text-align: center;
+}
+
+.caption h2 {
+    padding-bottom: 1rem;
+}
+
+.slidder button {
+    position: absolute;
+    top: 50%;
+    border: none;
+    padding: 1rem;
+    box-shadow: 0px 0px 4px black;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0, .6);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.slidder button:hover {
+    background-color: black;
+}
+
+.prev {
+    left: 50px;
+}
+
+.next {
+    right: 50px;
+}
+
+footer {
+    background: rgb(0, 0, 0, .3);
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}

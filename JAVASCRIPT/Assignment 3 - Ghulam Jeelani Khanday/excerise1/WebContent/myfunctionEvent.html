@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Grazitti Skillstone - JavaScript Functions & Events</title>
+</head>
+
+<body onload="fun()" onmousedown="bodyEvent()">
+    <section class="welcome">
+        <span>STATEMENT 1</span>
+        <h2>Grazitti Skillstone</h2>
+        <button onclick="jackpot()" id="jackpot">Jackpot</button> <br><br><br><br>
+
+        <span>STATEMENT 2</span><br><br>
+        <small>PROBLEM # 1 : The Page should contain a message when it gets loaded</small>
+        <p id="disp1"></p>
+        <label for="name">Name</label>
+        <input type="text"><br><br>
+        <button>Click Me</button><br><br><br><br>
+
+        <small>PROBLEM # 2 : Type the name in the Textbox and click the mouse outside the textbox to get the name printed as shown in the figure</small>
+        <p id="disp2"></p>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name"><br><br>
+        <button>Click Me</button><br><br><br><br>
+
+        <small>PROBLEM # 3 : Click the button to get the message as shown in the figure</small>
+        <p id="disp3"></p>
+        <label for="name">Name</label>
+        <input type="text"><br><br>
+        <button onclick="displayWelcome()" id="click">Click Me</button>
+    </section>
+    <script src="../Js/scripts.js" type="text/javascript"></script>
+</body>
+
+</html>

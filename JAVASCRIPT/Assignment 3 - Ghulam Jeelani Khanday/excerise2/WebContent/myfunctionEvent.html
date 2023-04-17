@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Grazitti Skillstone - JavaScript Functions & Events</title>
+</head>
+
+<body onload="fun()" onmousedown="bodyEvent()">
+    <section class="welcome">
+        <h2>Grazitti Skillstone</h2>
+        <small>PROBLEM STATEMENT # 1 : If the entered name is empty alert the user stating that the name cannot be empty.</small><br><br>
+        <p id="disp1"></p>
+        <label for="firstName">Name</label>
+        <input type="text" name="firstName" id="firstName"><br><br>
+        <button onclick="validateFirst()">ENTER</button><br><br>
+        <hr><br><br>
+
+        <small>PROBLEM STATEMENT # 2 : On entering the correct name and clicking “Go” a confirmation box to be displayed clicking “yes” (or) “no” the appropriate messages to be displayed.</small><br><br>
+        <p id="disp2"></p>
+        <label for="lastName">Name</label>
+        <input type="text" name="lastName" id="lastName"><br><br>
+        <button onclick="validateSecond()">ENTER</button><br><br><br><br>
+    </section>
+    <script src="../Js/scripts.js" type="text/javascript"></script>
+</body>
+
+</html>

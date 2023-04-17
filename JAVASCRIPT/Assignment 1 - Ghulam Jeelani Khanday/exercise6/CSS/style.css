@@ -1,0 +1,12 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.welcome {
+    background-color: azure;
+    min-height: 550px;
+    text-align: left;
+    padding: 30px;
+    color: black;
+}

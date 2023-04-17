@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Business Automation Experts & Custom Software Solutions</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" type="text/css" href="../CSS/register.css">
+    <link rel="icon" type="image/x-icon" href="imgs/hhh.jpeg">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h2>TALENTELGIA TECHNOLOGIES PVT. LTD.</h2>
+            <small>Transforming Ideas Into Innovations</small>
+        </header>
+
+        <section class="register">
+            <form>
+                <fieldset>
+                    <legend>
+                        <h3>Welcome To Customer Registration Portal</h3>
+                    </legend>
+                    <fieldset>
+                        <legend>
+                            <h4>Personal Details</h4>
+                        </legend>
+                        <table>
+                            <tr>
+                                <td>
+                                    <input type="text" name="name" id="name" placeholder=" Enter Your Full Name" required/></td>
+                                <td><input type="text " name="father " id="father " placeholder="Enter Your Father 's Name" required/></td>
+                                <td><input type="text" name="mother" id="mother" placeholder="Enter Your Mothers Name" required/></td>
+                                <td><input placeholder="Enter Your DOB" id="dob" name="dob" type="text" onfocus="(this.type = 'date ')" </td>
+                            </tr>
+                            <tr>
+                                <td><input type="number" name="mobile" id="mobile" placeholder="Enter Your Mobile" required/></td>
+                                <td><input type="number" name="em_mobile" id="em_mobile" placeholder="Enter Emergency Mobile" required/></td>
+                                <td><input type="email" placeholder="Enter Your Email" id="email" name="email" required/></td>
+                            </tr>
+                        </table>
+                    </fieldset><br><br>
+
+                    <fieldset>
+                        <legend>
+                            <h4>Professional Details</h4>
+                        </legend>
+                        <table>
+                            <tr>
+                                <td><input type="text" name="design" id="design" placeholder="Enter Your Designation" required/></td>
+                                <td><input type="number" name="experience" id="experience" placeholder="Enter Years of Experice" required/></td>
+                                <td><input type="email" name="prof_email" id="prof_email" placeholder="Enter Professional Email" required/></td>
+                                <td><input id="dol" id="dol" placeholder="Enter Date of Leaving Company" type="text" onfocus="(this.type = 'date')"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input list="salary" name="sal" id="sal" placeholder="Expected Salary Range">
+                                    <datalist id="salary">
+											<option value="1LPA - 3LPA">Between 1LPA - 3LPA</option>
+											<option value="3LPA - 6LPA">Between 3LPA - 6LPA</option>
+											<option value="6LPA - 12LPA">Between 6LPA - 12LPA</option>
+											<option value="12LPA - 20LPA">Between 12LPA - 20LPA</option>
+											<option value="> 20LPA">Above 20LPA</option>
+										</datalist>
+                                </td>
+                                <td><input type="text" name="l_company" id="l_company" placeholder="Last Company Name" required/></td>
+                                <td><input type="text" placeholder="Field of Interest" name="interest" id="interest" required/></td>
+                            </tr>
+                        </table>
+                    </fieldset><br>
+                    <p>
+                        <input type="checkbox" id="agreement" name="agreement" /> <small>I Agree all the terms and conditions of the <span>Talentelgia Technologies Pvt. Ltd.</span> All the above information entered is best to my knowledge.</small>
+                    </p><br>
+                    <button onclick="validateRegister()">SIGN UP NOW</button><br><br>
+                    <p style="text-align: center;">
+                        Already Registered! <a href="login.html">Login Now</a><br><br> &#x1F614 <a href="#">I Forgot Passworrd</a>
+                    </p>
+                </fieldset>
+            </form>
+        </section>r
+        <br>
+
+        <footer>
+            <p>&copy;Talentelgia Technologies Pvt. Ltd. 2023-24. All Rights Reserved.</p>
+            <p>Designed & Developed By <a href="https://talentelgia.com">Talentelgia Technologies Pvt. Ltd.</a></p>
+        </footer>
+    </div>
+
+    <script src="../Js/scripts.js"></script>
+</body>
+
+</html>

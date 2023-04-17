@@ -1,0 +1,31 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.welcome {
+    background-color: azure;
+    min-height: 550px;
+    text-align: left;
+    padding: 30px;
+    color: black;
+}
+
+.welcome button {
+    padding: 10px;
+    cursor: pointer;
+    width: 200px;
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+}
+
+.welcome button:hover {
+    color: red;
+    background-color: white;
+}
+
+.welcome p {
+    font-size: 1.5rem;
+    color: red;
+}

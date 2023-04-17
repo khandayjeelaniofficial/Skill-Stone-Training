@@ -1,0 +1,93 @@
+/*** Register Form ***/
+
+@import url('style.css');
+.wrapper {
+    margin-top: 6px!important;
+    width: 99%;
+    margin: auto;
+    font-size: .8rem;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 20px;
+}
+
+.register {
+    min-height: 200px;
+    width: 95%;
+    background-color: #F0EEED;
+    padding: 20px;
+}
+
+.register div {
+    padding: 10px;
+}
+
+.register h3 {
+    text-align: center;
+}
+
+legend {
+    padding: 5px;
+    color: tomato;
+    letter-spacing: 5px;
+}
+
+fieldset {
+    text-align: center;
+    padding: 20px;
+    border-color: #bfbdbd0f;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 0px grey;
+}
+
+fieldset table {
+    width: 100%;
+    padding: 10px;
+}
+
+fieldset table tr td {
+    padding: 15px;
+}
+
+fieldset input {
+    width: 90%;
+    outline-color: orange;
+}
+
+fieldset input[type=submit] {
+    text-align: center;
+    width: 40%;
+    background-color: orange;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+fieldset input[type=submit]:hover {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+fieldset a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+fieldset a:hover {
+    color: black;
+}
+
+fieldset p {
+    text-align: left;
+    padding: 10px;
+}
+
+fieldset span {
+    color: red;
+}
+
+input[type=checkbox] {
+    text-align: left;
+    width: auto;
+}

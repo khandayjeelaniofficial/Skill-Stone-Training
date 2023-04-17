@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Grazitti Skillstone - Registration Form</title>
+</head>
+
+<body>
+    <div id="main">
+        <div class="h-tag">
+            <h2>Personal Details</h2>
+        </div>
+        <form class="login">
+            <table cellspacing="2" align="center" cellpadding="8" border="0">
+                <tr>
+                    <td><label for="name">Name :</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="Enter user name here" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender :</label></td>
+                    <td><input type="radio" id="male" value="1" name="gender" /><label for="male">Male</label> <input type="radio" value="0" id="female" name="gender" /><label for="female">Female</label></td>
+                </tr>
+                <tr>
+                    <td><label for="hometown">HomeTown :</label></td>
+                    <td>
+                        <select name="hometown" class="tb" id="hometown">
+                            <option value="01">New Delhi</option>
+                            <option value="02">Chandigarh</option>
+                            <option value="03">Haryana</option>
+                            <option value="04">Mohali</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address :</label></td>
+                    <td>
+                        <textarea name="address" id="address" class="tb " cols="30 " rows="10 "></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="skills">Skills :</label></td>
+                    <td>
+                        Java <input type="checkbox" id="java " name="skills " /> HTML <input type="checkbox" id="html" name="skills" /> Oracle <input type="checkbox" id="oracle" name="skills" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="pwd" Password :>Password:</label></td>
+                    <td><input type="password" id="pwd" name="pwd" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button class="btn" onclick="validateRegister()">SUBMIT</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <script src="../Js/scripts.js "></script>
+</body>
+
+
+</html>

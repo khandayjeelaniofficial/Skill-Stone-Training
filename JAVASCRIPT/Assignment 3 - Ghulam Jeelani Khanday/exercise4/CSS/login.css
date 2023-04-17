@@ -1,0 +1,61 @@
+/*** Login Page Styling ***/
+
+@import url('style.css');
+.login {
+    min-height: 200px;
+    width: 40%;
+    background-color: #F0EEED;
+    padding: 20px;
+}
+
+.login div {
+    padding: 10px;
+}
+
+.login h3 {
+    text-align: center;
+}
+
+legend {
+    padding: 10px;
+    color: tomato;
+    letter-spacing: 5px;
+}
+
+fieldset {
+    text-align: center;
+    padding: 30px;
+    border-color: #bfbdbd0f;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 0px grey;
+}
+
+fieldset input {
+    width: 90%;
+    outline-color: orange;
+}
+
+fieldset input[type=submit] {
+    text-align: center;
+    width: 40%;
+    background-color: orange;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+fieldset input[type=submit]:hover {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+fieldset a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+fieldset a:hover {
+    color: black;
+}
