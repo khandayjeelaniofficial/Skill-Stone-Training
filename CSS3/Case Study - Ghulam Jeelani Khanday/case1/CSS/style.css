@@ -1,0 +1,100 @@
+body {
+    font-family: arial;
+    font-size: .9rem;
+    padding: 30px;
+}
+
+.about-me {
+    min-height: 610px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+h1,
+p {
+    padding: 10px;
+    font-size: 2.5rem;
+}
+
+h2 {
+    padding: 10px;
+    font-size: 2.5rem;
+    font-weight: 1000;
+    color: rgb(195, 40, 92);
+    letter-spacing: 1px;
+}
+
+.wrapper h2 {
+    padding: 10px;
+    font-size: 1.4rem;
+    font-weight: 1000;
+    color: rgb(195, 40, 92);
+    letter-spacing: 1px;
+}
+
+.about-me p {
+    font-size: 1rem;
+    color: rgb(103, 99, 99);
+}
+
+.wrapper p {
+    font-size: 1rem;
+    color: rgb(52, 50, 50);
+}
+
+.about-me a {
+    text-decoration: none;
+    padding: 15px;
+    background-color: rgb(195, 40, 92);
+    display: block;
+    width: 100px;
+    text-align: center;
+    font-size: .9rem;
+    border-radius: 6px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.about-me a:hover {
+    background: black;
+}
+
+.wrapper {
+    min-height: 300px;
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: rgb(194, 70, 111);
+    min-height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper footer {
+    padding: 10px;
+}
+
+.wrapper footer p {
+    font-size: 1rem;
+    color: black;
+    padding: 0px;
+}
+
+.wrapper footer h2 {
+    font-size: 1.3rem;
+    color: black;
+    padding: 0px;
+}

@@ -1,0 +1,21 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-weight: normal;
+}
+
+header {
+    background-color: blueviolet;
+    padding: 40px;
+}
+
+.body-section {
+    min-height: 335px;
+    background-color: darkgray;
+    padding: 40px;
+}
+
+footer {
+    background-color: grey;
+    padding: 40px;
+}

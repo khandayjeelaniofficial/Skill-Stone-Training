@@ -1,0 +1,27 @@
+body {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+header h1 {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.para {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: red;
+}
+
+section {
+    padding: 20px;
+}
+
+section div {
+    background-color: whitesmoke;
+    margin: 20px;
+    width: 100px;
+    padding: 10px;
+    border: 10px solid green;
+}
