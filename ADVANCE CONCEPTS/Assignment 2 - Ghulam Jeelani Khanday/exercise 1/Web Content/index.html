@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Business Automation Experts &amp; Custom Software Solutions</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+    <link rel="icon" type="image/x-icon" href="../Images/img.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="card">
+            <div class="card-header">
+                <h2>Create To Do</h2>
+            </div>
+            <div class="card-body">
+                <table cellspacing="20" id="grocery">
+                    <tr>
+                        <td><label for="txt_title">Add List Title</label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" name="txt_title" id="txt_title" placeholder="Grocery">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="submit" class="btnTitle" id="btnTitle">Add Name</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="txt_item">Add Item To List</label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" name="txt_item" id="txt_item" placeholder="Enter Another Item">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="button" class="btnItem btnTitle" id="btnItem">Add Item</button>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+
+
+        <div class="card show_grocery">
+            <div class="card-header">
+                <h2 id="card_title"></h2>
+            </div>
+            <div class="card-body" id="groc_list">
+            </div>
+        </div>
+
+        <!-- <div class="row">
+            <!DOCTYPE html>
+            <html>
+
+            <body>
+                <input id="balloons" type="number" step="10" min="1" max="1000" size="25" value="60">
+                <input id="bloquear" type="checkbox" onclick="validate()" />
+
+                <p id="demo1"></p>
+                <p id="demo2"></p>
+
+                <script type=text/javascript>
+                    function validate() {
+
+                        document.getElementById("bloquear").checked == (bloquear.checked == 1 ? false : true);
+
+                        document.getElementById("demo1").innerHTML = bloquear.checked;
+                        document.getElementById("demo2").innerHTML = balloons.readOnly;
+
+                        if (balloons.readOnly) document.getElementById("balloons").removeAttribute("readonly");
+                        else balloons.setAttribute("readonly", "readonly");
+
+                    }
+                </script>
+            </body>
+
+            </html>
+        </div> -->
+    </div>
+
+    <script src="../JavaScript/scripts.js" type="text/javascript"></script>
+</body>
+
+</html>

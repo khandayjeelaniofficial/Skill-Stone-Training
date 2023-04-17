@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(38, 38, 55);
+}
+
+.wrapper {
+    width: 100%;
+    font-size: .8rem;
+    font-family: Montserrat, sans-serif;
+    margin-top: 100px;
+}
+
+.container {
+    margin: auto;
+    width: 26%;
+    height: 26%;
+    border-radius: 100%;
+    border: 6px solid cyan;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.row {
+    margin: auto;
+    place-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.row input {
+    text-align: center;
+    padding: 10px;
+    font-size: 2.5rem;
+    background: none;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    color: white;
+}
+
+.icon i {
+    font-size: 1.3rem;
+    align-items: center;
+    text-align: center;
+}
+
+.row button {
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(23, 23, 48);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 4px 7px cyan;
+    align-content: center;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.row button:hover {
+    background-color: white;
+    color: black;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    line-height: 10vh;
+}
+
+footer {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 200;
+}
+
+#seconds,
+#tens,
+p {
+    font-size: 1.9em;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}

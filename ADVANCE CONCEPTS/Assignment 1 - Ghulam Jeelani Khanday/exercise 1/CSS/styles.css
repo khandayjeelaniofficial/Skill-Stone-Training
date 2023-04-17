@@ -1,0 +1,116 @@
+.wrapper {
+    margin-top: 6px!important;
+    width: 50%;
+    margin: auto;
+    font-size: .8rem;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 20px;
+}
+
+.register {
+    min-height: 200px;
+    width: 100%;
+    background-color: #cd4e37;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.register div {
+    padding: 10px;
+}
+
+.register h3 {
+    text-align: center;
+}
+
+h3 {
+    padding: 5px;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 1.2rem;
+}
+
+small {
+    color: white;
+}
+
+h5 {
+    color: white;
+    font-size: .8rem;
+    letter-spacing: 3px;
+}
+
+fieldset {
+    text-align: center;
+    padding: 20px;
+    border-color: #bfbdbd0f;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 0px grey;
+}
+
+fieldset table {
+    width: 100%;
+    padding: 10px;
+}
+
+fieldset table tr td {
+    padding: 0px;
+}
+
+fieldset input {
+    width: 100%;
+    outline-color: orange;
+}
+
+fieldset input[type=submit] {
+    text-align: center;
+    width: 40%;
+    background-color: green;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 5px;
+}
+
+fieldset input[type=submit]:hover {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+fieldset a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+fieldset a:hover {
+    color: black;
+}
+
+fieldset p {
+    text-align: left;
+    margin-left: 50px;
+    font-size: .9rem;
+}
+
+fieldset span {
+    color: black;
+}
+
+input[type=checkbox] {
+    text-align: left;
+    width: auto;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 6px;
+}
