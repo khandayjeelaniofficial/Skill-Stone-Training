@@ -1,0 +1,34 @@
+    body {
+        font-family: arial;
+        font-size: .8rem;
+    }
+    
+    section form {
+        border-top: 3px solid black;
+        width: 35%;
+        padding: 10px;
+        margin: auto;
+    }
+    
+    section form span {
+        text-align: center;
+        color: red;
+        text-align: center;
+    }
+    
+    section form table {
+        margin: auto;
+        border-spacing: 20px;
+        width: 100%;
+    }
+    
+    section form table tr th {
+        color: darkgray;
+    }
+    
+    section form table tr td input {
+        padding: 4px;
+        border: 1px solid lightgrey;
+        border-radius: 4px;
+        width: 100%;
+    }

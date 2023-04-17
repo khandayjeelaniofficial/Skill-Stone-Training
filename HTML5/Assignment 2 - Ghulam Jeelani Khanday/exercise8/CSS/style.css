@@ -1,0 +1,21 @@
+section {
+    padding: 10px;
+}
+
+section table {
+    width: 50%;
+}
+
+section table th {
+    color: white;
+    background-color: darkcyan;
+    text-align: left;
+}
+
+section table tr td,
+tr th {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: darkcyan;
+}

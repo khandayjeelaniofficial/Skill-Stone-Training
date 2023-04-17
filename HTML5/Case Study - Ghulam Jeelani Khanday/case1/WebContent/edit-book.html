@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Online Grazitti Book Mart - Service For Online Shopping of Books</title>
+</head>
+
+<body>
+    <header>
+        <h2>Book Mart</h2>
+    </header>
+
+    <section class="book-list-admin">
+        <img src="../image/cart.png" alt="Cart" height="120px">
+
+        <form action="edit-book-status.html">
+            <table>
+                <tr>
+                    <th style="font-size: 1rem; text-align: left;">Edit Book</th>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="title">Title</label><br>
+                        <input type="text" name="title" id="title" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="price">Price</label><br>
+                        <input type="number" name="price" id="price" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="pdate">Date of Publication</label><br>
+                        <input type="date" name="pdate" id="pdate" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="position">Position you are applying for</label><br>
+                        <input type="text" name="position" id="position" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="stock">In Stock</label>
+                        <input type="radio" name="stock" id="yes"> <label for="yes" class="left-space">Yes</label>
+                        <input type="radio" name="stock" id="no">&nbsp; <label for="no" class="left-space">No</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="cat">Category</label> <span>*</span><br>
+                        <select name="cat" id="cat">
+                            <option value="0">C-Programming</option>
+                            <option value="1">UI</option>
+                            <option value="2">Database</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox" name="delivery" id="delivery"> <label for="delivery" class="left-space">Free Delivery</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Save"></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+    <footer>
+        <small>Copyright &copy; 2023</small>
+    </footer>
+</body>
+
+</html>

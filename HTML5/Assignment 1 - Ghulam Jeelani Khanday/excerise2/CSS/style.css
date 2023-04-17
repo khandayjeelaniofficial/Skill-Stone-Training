@@ -1,0 +1,26 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+nav ul li {
+    text-decoration: none;
+    float: left;
+    border-right: 1px solid grey;
+    padding: 5px;
+    border-spacing: 10px;
+    font-size: .9rem;
+}
+
+article p {
+    font-size: 1.9rem;
+}
+
+footer p {
+    font-size: 1.6rem;
+}

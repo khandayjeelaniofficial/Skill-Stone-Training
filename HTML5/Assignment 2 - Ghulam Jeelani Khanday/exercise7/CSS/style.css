@@ -1,0 +1,18 @@
+section {
+    padding: 10px;
+}
+
+section table {
+    min-width: 600px;
+    text-align: center;
+}
+
+section table thead {
+    color: white;
+    background-color: green;
+}
+
+section table thead tr th,
+tbody tr td {
+    padding: 10px;
+}

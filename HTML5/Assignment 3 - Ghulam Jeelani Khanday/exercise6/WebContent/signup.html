@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Welcome to Grazitti</title>
+</head>
+
+<body>
+    <section>
+        <form action="#">
+            <table>
+                <h1>Personal Details</h1>
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td><input type="text" name="name" id="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td>
+                        <label for="male">Male</label><input type="radio" name="gender" id="male"> <label for="female">Female</label> <input type="radio" name="gender" id="female">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="hometown">Home Town</label></td>
+                    <td><select name="hometown">
+                            <option value="0">New Delhi</option>
+                            <option value="1">Bangalore</option>
+                            <option value="2">Chandigarh</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address</label></td>
+                    <td><textarea name="address" cols="40" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="skills">Skills</label></td>
+                    <td>
+                        <label for="java">Java</label><input type="checkbox" name="skills" id="java"> &nbsp; <label for="html">HTML</label>
+                        <input type="checkbox" name="skills" id="html">&nbsp; <label for="oracle">Oracle</label>
+                        <input type="checkbox" name="skills" id="oracle">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Submit"></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+</body>
+
+</html>

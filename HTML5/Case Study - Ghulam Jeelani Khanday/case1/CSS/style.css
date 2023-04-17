@@ -1,0 +1,102 @@
+body {
+    font-family: arial;
+    font-size: .8rem;
+    padding: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.book-list-admin table {
+    border-spacing: 20px;
+    background-color: azure;
+    padding: 10px;
+}
+
+.cart-notify {
+    width: 50%;
+    border-spacing: 20px;
+    padding: 10px;
+    background-color: azure;
+}
+
+.edit-book-status,
+.cart-empty {
+    background-color: azure;
+    padding: 20px;
+    width: 30%;
+}
+
+.edit-book-status,
+.cart-empty,
+.cart-notify,
+.edit-book-status h4 {
+    text-align: right;
+}
+
+.edit-book-status,
+.cart-empty h3 {
+    text-align: left;
+}
+
+.edit-book-status,
+.cart-empty p {
+    color: green;
+    text-align: left;
+}
+
+.book-list-admin table thead,
+tbody tr td {
+    text-align: left;
+}
+
+section form {
+    width: 30%;
+    padding: 25px;
+    box-shadow: 0px 1px 1px grey;
+}
+
+section form span {
+    text-align: center;
+    color: red;
+    text-align: center;
+}
+
+section form table {
+    border-spacing: 20px;
+    width: 100%;
+}
+
+section form table tr th {
+    color: darkgray;
+    font-size: 1.3rem;
+    color: black;
+}
+
+section form table tr td input,
+select {
+    padding: 4px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    width: 100%;
+}
+
+section form table tr td input[type=radio] {
+    margin-left: -120px;
+}
+
+.left-space {
+    margin-left: -120px;
+}
+
+section form table tr td input[type=checkbox] {
+    margin-left: -120px;
+}
+
+section form table tr td input[type=submit] {
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 1px 1px lightcyan;
+    font-weight: 700;
+}

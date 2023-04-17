@@ -1,0 +1,9 @@
+section table tr td {
+    padding: 10px;
+}
+
+section form {
+    border: 1px solid black;
+    width: 35%;
+    padding: 10px;
+}

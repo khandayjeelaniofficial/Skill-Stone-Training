@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Job Application Form</title>
+</head>
+
+<body>
+    <section>
+        <form action="../WebContent/success.html">
+            <table>
+                <tr>
+                    <th colspan="2">Job Application With Resume Upload</th>
+                </tr>
+                <tr>
+                    <th style="font-size: 1rem; text-align: left;">Contact Information</th>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fname">First Name</label> <span>*</span><br>
+                        <input type="text" name="fname" id="fname" />
+                    </td>
+                    <td>
+                        <label for="lname">Last Name</label> <span>*</span><br>
+                        <input type="text" name="lname" id="lname" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="email">Email</label> <span>*</span><br>
+                        <input type="email" name="email" id="email" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="mobile">Phone</label> <span>*</span><br>
+                        <input type="tel" name="mobile" id="mobile" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" />
+                    </td>
+                </tr>
+                <tr>
+                    <th style="font-size: 1rem; text-align: left;">Position</th>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="position">Position you are applying for</label> <span>*</span><br>
+                        <input type="text" name="position" id="position" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="resume">Resume upload</label><br>
+                        <input type="file" name="resume" id="resume" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="portfolio">Portfolio website</label><br>
+                        <input type="text" name="portfolio" id="portfolio" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="salary">Salary Requirements</label><br>
+                        <input type="text" name="salary" id="salary" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="start">When Can You Start?</label><br>
+                        <input type="date" name="start" id="start" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="relocate">Are you willing to relocate?</label><br>
+                        <input type="radio" name="relocate" id="yes"> <label for="yes" class="left-space">Yes</label><br>
+                        <input type="radio" name="relocate" id="no"> <label for="no" class="left-space">No</label><br>
+                        <input type="radio" name="relocate" id="notsure"> <label for="notsure" class="left-space">Not Sure</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan=" 2 ">
+                        <label for="company">Last company worked for</label><br>
+                        <input type="text " name="company" id="company" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="comments">Comments</label><br>
+                        <textarea name="comments" id="comments" cols="70" rows="10 "></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Submit"></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+</body>
+
+</html>
